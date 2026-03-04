@@ -1,0 +1,39 @@
+/* Style rules for all paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style rules for all level 2 headings */
+h2 {
+    color: #8b0000;
+    border-bottom: 2px solid #8b0000;
+}
+
+/* Style rules for all tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #8b0000;
+    padding: 8px;
+}
+
+/* Style rule for the third paragraph using its id */
+#third-paragraph {
+    background-color: #f5f5f5;
+    font-style: italic;
+}
+
+/* Class-based rule block applied to at least one element */
+.highlight {
+    color: #8b0000;
+}
+
+/* Rule block for the Smith logo image using class selector */
+img.logo {
+    width: 267px;
+    height: 72px;
+}
